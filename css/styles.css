@@ -20,6 +20,9 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -29,6 +32,10 @@ body {
 /* logo */
 .logo {
   color: var(--title-text-color);
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .logo-web {
@@ -47,6 +54,10 @@ body {
 
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -60,6 +71,10 @@ body {
 
 .link-auth-nav {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .link-auth-nav:hover,
@@ -75,11 +90,25 @@ body {
 
 .hero-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+
+  text-align: center;
 }
 
+.hero-button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
 .button {
   color: #ffffff;
   background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
 }
 
 /* Section */
@@ -112,4 +141,22 @@ footer {
   background-color: #2f303a;
 }
 
+.location {
+  color: #ffffff;
+}
+
+.footer-auth-nav {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 /* Стили для Портфолио */
+
+.portfolio {
+  color: var(--title-text-color);
+}
+
+.site-nav-portfolio:hover,
+.site-nav-portfolio:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
