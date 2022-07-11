@@ -36,18 +36,24 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+
+  text-decoration: none;
 }
 
 .logo-web {
   color: var(--accent-color);
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .logo-studio {
   color: #000000;
-}
-
-.logo-footer-studio {
-  color: #ffffff;
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 /* Site-nav */
@@ -58,6 +64,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -75,6 +83,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
 
 .link-auth-nav:hover,
@@ -101,10 +111,6 @@ body {
 .hero-button {
   color: #ffffff;
   background-color: var(--accent-color);
-}
-.button {
-  color: #ffffff;
-  background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -115,24 +121,49 @@ body {
 
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 /* Features */
 
 .features-list .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.features-list .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
 }
 
 /* Service */
 
 /* Team */
 
+.section-team {
+  background-color: #f5f4fa;
+}
+
 .team-list {
   color: var(--primary-text-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 /* Footer */
@@ -141,12 +172,23 @@ footer {
   background-color: #2f303a;
 }
 
+.footer-auth-nav:hover,
+.footer-auth-nav:focus {
+  color: var(--accent-color);
+}
+
+.logo-footer-studio {
+  color: #ffffff;
+}
+
 .location {
   color: #ffffff;
 }
 
 .footer-auth-nav {
   color: rgba(255, 255, 255, 0.6);
+
+  text-decoration: none;
 }
 
 /* Стили для Портфолио */
@@ -155,8 +197,33 @@ footer {
   color: var(--title-text-color);
 }
 
+.site-nav-portfolio {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
 .site-nav-portfolio:hover,
 .site-nav-portfolio:focus {
   color: #ffffff;
   background-color: var(--accent-color);
+}
+
+.button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.portfolio-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.9;
 }
