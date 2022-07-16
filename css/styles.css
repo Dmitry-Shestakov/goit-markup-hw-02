@@ -42,6 +42,11 @@ body {
   overflow: hidden;
 }
 
+/* Page-Header */
+
+.page-header {
+}
+
 /* logo */
 .logo {
   color: var(--title-text-color);
@@ -109,6 +114,7 @@ body {
 
 .hero {
   background-color: #2f303a;
+  width: 1200px;
 }
 
 .hero-title {
@@ -122,13 +128,21 @@ body {
 }
 
 .hero-button {
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: 0;
+  min-width: 200px;
+
   color: #ffffff;
   background-color: var(--accent-color);
+
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 
 /* Section */
